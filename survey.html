@@ -1,0 +1,377 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+<style>
+
+body {
+   margin: 0px;
+   font-family: 'Signika', sans-serif;
+
+   
+}
+    .header-line{
+        position:fixed;
+        background-color: black;
+        width:100% ;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Signika', sans-serif;
+        
+        
+    }
+    .follow-and-page{
+        display: flex;
+        justify-content: center;
+        
+    }
+.first-button{
+    margin: 1px;
+    padding:px; 
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(194, 219, 255);
+    border-radius: 6px;
+    border-width: 3px;
+   
+}
+.gap1{
+   padding-left: 20px;
+    
+}
+p{
+    margin:3px;
+    padding:0px;
+    
+}
+ 
+ .button-row{
+     padding-right: 20px;
+ }
+
+.b1{
+   
+    padding:12px;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(194, 219, 255);
+    border-radius: 6px;
+    border-width: 3px;
+   color:rgb(243, 158, 200);
+   
+}
+.b2{
+    padding:12px;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(194, 219, 255);
+    border-radius: 6px;
+    border-width: 3px;
+}
+.b3{
+    padding:12px;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(194, 219, 255);
+    border-radius: 6px;
+    border-width: 3px;
+}
+.b4{
+    padding:12px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(194, 219, 255);
+    border-radius: 6px;
+    border-width: 3px;
+    
+}
+.b5{
+    padding:12px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(194, 219, 255);
+    border-radius: 6px;
+    border-width: 3px;
+   
+}
+
+button:hover{
+ background-color:rgb(194, 219, 255);
+ color:
+}
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin: 2%;
+    
+}
+
+.heading{
+    padding-bottom: 30px;
+}
+
+
+
+.text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    font-size: 20px;
+   display: flex;
+    background-color: rgb(173, 204, 250);
+    width: 800px;
+    height: 1900px;
+    justify-content:space-around;
+    padding-top: 50px;
+    border-radius: 5px;
+    
+    
+}
+input::placeholder {
+    
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#name{
+    border-color: rgb(233, 8, 233) ;
+    border: 8px;
+    border-radius: 5px;
+    width:650px;
+    height: 40px;
+    
+}
+#age{
+    border-color: rgb(233, 8, 233) ;
+    border: 8px;
+    border-radius: 5px;
+    width:650px;
+    height: 40px;
+    
+}
+#email{
+    border-color: rgb(233, 8, 233) ;
+    border: 8px;
+    border-radius: 5px;
+    width:650px;
+    height: 40px;
+    
+}
+#name{
+    border-color: rgb(233, 8, 233) ;
+    border: 8px;
+    border-radius: 5px;
+    width:650px;
+    height: 40px;
+    
+}
+#question{
+    border-color: rgb(233, 8, 233) ;
+    border: 8px;
+    border-radius: 5px;
+    width:650px;
+    height: 40px;
+    
+}
+#option-select{
+    border-color: rgb(233, 8, 233) ;
+    border: 8px;
+    border-radius: 5px;
+    width:650px;
+    height: 40px;
+    
+}
+
+
+.radio-button-row{
+    display:flex;
+    align-items: ;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+    
+}
+
+    
+.radiob{
+    padding: 5px;
+   
+}
+
+.checkboxes-row{
+    display:flex;
+    align-items: ;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.checkbox{
+    padding: 5px;
+   
+}
+.comments{
+display:flex;
+justify-content: center;
+
+
+}
+#comments{
+    width: 650px;
+    height:200px
+}
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+</head>
+<body>
+    <div class="header-line">
+        <div class="gap1">
+         <p style="font-size:20px; color:rgb(255, 255, 255)"><strong>FCC: Survey form</strong></p>
+          <div class="follow-and-page">
+            <p style="font-size:15px; color:rgb(255, 255, 255)">freeCodeCamp.org</p>
+            <button class="first-button">+Follow</button>
+         </div>
+        </div>
+ 
+         <div class="button-row">
+          <button class="b1">
+             <i class="fas fa-heart"></i>
+          </button>
+          <button class="b2"><strong>view in editor</strong></button>
+          <button class="b3">
+             <i class="fas fa-coffee"></i>
+             </button>
+          <button class="b4">hey</button>
+          <button class="b5">bye</button>
+ 
+        </div>
+     </div>
+ 
+ <section class="text">
+        
+     <div class="heading">      
+    <h1 style="font-size:40px">My survey</h1>
+    <p>Answer a few questions below:)</p>
+     </div>
+</section>
+    
+    
+ <section class="box">
+    <div class="container">
+        
+        
+        <form action="">
+           <div class="try">
+            <p>Name</p><input  id="name" type="text"  name="name"placeholder="name" > <br><br>
+            <p>Email</p><input id="email"type="text"  name="email"placeholder=" email" ><br><br>
+            <p>Age</p><input id="Age" type="number"  name="age"placeholder="Age" ><br><br>
+
+<label for="option-select">What other pages would you like to see here?</label>
+<br><br>
+<select id="option-select">
+    <option value="">Select current role</option>
+    <option value="dog">Student</option>
+    <option value="cat">Full-time job</option>
+    <option value="hamster">Full-time learner</option>
+    <option value="parrot">Stay at home parent</option>
+    <option value="spider">Part-time job</option>
+    <option value="goldfish">Prefer not to say</option>
+</select> <br><br><br>
+</div>
+            <p>What is your favorite color?</p> 
+           
+            <div class="radio-button-row">
+            <label for="blue"class="radiob"> 
+                <input type="radio" id="blue" name="color" value="blue">blue
+            </label> 
+            <label for="pink" class="radiob"> 
+                <input type="radio" id="pink" name="color"value="pink">pink 
+            </label>
+            <label for="orange" class="radiob"> 
+                <input type="radio" id="orange" name="color"value="orange">orange 
+            </label>
+            <label for="purple" class="radiob"> 
+                <input type="radio"  id="purple" name="color"value="purple">purple 
+            </label>
+         </div>
+<br><br>
+<label for="option-select">What other pages would you like to see here?
+
+</label>
+<br><br>
+
+<select id="option-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+<br> <br> <br>
+<p>What do you enjoy most from web dev?</p>
+<div class="checkboxes-row">
+<label class="checkbox" id="checkboxes" for="loving">
+    <input id="loving" type="checkbox" name="personality" value="loving"> Loving
+</label>
+<label class="checkbox" id="checkboxes" for="loving">
+    <input id="loving" type="checkbox" name="personality" value="loving"> Loving
+</label>  
+<label class="checkbox" id="checkboxes" for="loving">
+    <input id="loving" type="checkbox" name="personality" value="loving"> Loving
+</label>
+<label class="checkbox" id="checkboxes" for="loving">
+    <input id="loving" type="checkbox" name="personality" value="loving"> Loving
+</label>
+<label class="checkbox" id="checkboxes" for="loving">
+    <input id="loving" type="checkbox" name="personality" value="loving"> Loving
+</label>
+<label class="checkbox" id="checkboxes" for="loving">
+    <input id="loving" type="checkbox" name="personality" value="loving"> Loving
+</label>      
+<label class="checkbox" id="checkboxes" for="loving">
+    <input id="loving" type="checkbox" name="personality" value="loving"> Loving
+</label>      
+<label class="checkbox" id="checkboxes" for="loving">
+    <input id="loving" type="checkbox" name="personality" value="loving"> Loving
+</label>      
+<label class="checkbox" id="checkboxes" for="loving">
+    <input id="loving" type="checkbox" name="personality" value="loving"> Loving
+</label>    
+<br><br> 
+<p>jsfdkjskfskf</p>
+</div>
+<div class="comments">
+<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+    Hey... say something!
+    </textarea>
+    </div>
+
+
+          </form>
+
+
+      </div>
+  </section>
+
+
+
+
+</body>
+</html>
